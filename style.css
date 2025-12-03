@@ -1,0 +1,112 @@
+/* 1. Selector */
+h1 {
+/* 2. Declaration Block (Property: Value;) */
+color: blue;
+font-size: 48px;
+text-align: center;
+}
+
+p {
+    color:#000000;
+}
+
+.dark-mode p {
+    color:#f0f0f0
+}
+
+.red {
+    color: red;
+}
+
+#green {
+    color: green
+}
+
+.profile-picture {
+    border:5px solid black;
+}
+
+#page-body {
+    width:80%;
+    margin: 20px auto;
+}
+
+nav {
+    text-align: center;
+}
+    
+nav ul li {
+    display:inline-block;
+    padding:10px 15px;
+}
+
+nav ul li:hover {
+    color:#333;
+}
+
+.left-column {
+    float:left;
+    width:35%;
+    padding:20%;
+}
+
+.right-column {
+    float:right;
+    width:60%;
+    padding:20px;
+}
+
+footer {
+clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+a:hover {
+    color:red;
+    font-weight: bold;
+}
+
+.download-button {
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4A90E2;
+}
+
+.download-button:hover {
+    background-color: #3870B9;
+    color:white
+}
+
+/* 1. Default (Light Mode) Styles */
+body {
+background-color: #f0f0f0; /* Very light gray */
+color: #1a1a1a; /* Dark text */
+transition: background-color 0.5s, color 0.5s; /* Smooth visual transition */
+}
+
+/* 2. Dark Mode Overrides (Only applies when the .dark-mode class is added) */
+.dark-mode {
+background-color: #1a1a1a; /* Very dark gray */
+color: #f0f0f0; /* Light text */
+}
+
+/* 3. Apply overrides to children as well */
+.dark-mode h1, .dark-mode h2 {
+color: #99FFFF; /* Bright accent color for headings */
+}
+
+.dark-mode a {
+color: #4A90E2; /* Use a bright link color for dark mode */
+}
+
+.dark-mode .download-button {
+    color:#f0f0f0;
+    background-color:#00234e;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  </head>
+  <body id="page-body">
+    <header> 
+      <h1 id="main-title">Chris Ng'ang'a</h1>
+      <!--Navigation bar-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="left-column">
+        <!--Profile picture and contact info-->
+        <img class="profile-picture" src="https://hips.hearstapps.com/hmg-prod/images/dwayne-the-rock-johnson-gettyimages-1061959920.jpg" width="400">
+        <button id="change-pic">Click me to change the profile picture</button>
+        <h2>Contact information</h2>
+        <p>Phone no:0729048292 <br>
+        Email address: chrisnganga445@gmail.com</p>
+        <a class="download-button">Download my resume</a>
+        <button id="welcome-btn">Click me to say hello!</button>
+      </section>
+      <section class="right-column">
+        <!-- About, bio and skills -->
+        <h3 id="green"> My bio</h3>
+        <p>
+          I am a student at Murang'a High School. I love watching movies, playing chess and baking.<br>
+          <!--Absolute link-->
+          Follow me on my <a href="https://www.instagram.com/chrxs_0n.t0p/">instagram account</a>
+          <br>
+          <!--Relative link-->
+          <a href="about.html" target="_blank">About link</a><br>
+        </p>
+        <!--Unordered list(bullets)-->
+        <h4 class="red">My skills</h4>
+        <ul class="skills-list">
+          <li>Playing chess</li>
+          <li>Watching movies</li>
+          <li>Baking</li>
+        </ul>
+        <h4>My favourite subjects</h4>
+        <!--Ordered list(Numbers)-->
+        <ol>
+          <li>Mathematics</li>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Physics</li>
+        </ol>
+        <h4>My study timetable</h4>
+        <!--Tables-->
+        <table>
+          <tr>
+            <th>Subject</th>
+            <th>Time</th>
+          </tr>
+          <tr>
+            <td>Mathematics</td>
+            <td>8:00 am</td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td>9:00 am</td>
+          </tr>
+          <tr>
+            <td>Chemistry</td>
+            <td>10:00 am</td>
+          </tr>
+          <tr>
+            <td>Biology</td>
+            <td>11:00 am</td>
+          </tr>
+        </table>
+      </section>
+      <button id="theme-toggle-btn">Toggle Dark Mode</button>
+    </main>
+    <footer> 
+      <p>&copy; 2025|Chris Nganga</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
