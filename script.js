@@ -47,7 +47,7 @@ let titleElement = document.getElementById("main-title");
 console.log(titleElement);
 
 let bioTitle = document.querySelector(".red");
-bioTitle.textContent = "My skill set";
+bioTitle.textContent = "My skills";
 console.log(bioTitle);
 
 setTimeout(function() {
@@ -98,4 +98,8 @@ function toggleTheme() {
 
 // Step 3: Attach the listener
 toggleButton.addEventListener("click", toggleTheme);
+
+
+
+
 
